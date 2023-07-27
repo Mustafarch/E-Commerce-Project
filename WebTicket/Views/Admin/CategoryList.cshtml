@@ -1,0 +1,54 @@
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Core
+
+@model IPagedList<WebTicket.Entities.Category>
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+@if (TempData["Durum"] != null)
+{
+    <div class="row">
+        <span style="background-color: #ed4949;color:white;padding:10px;border-radius: 10px;width: 100%;float: left;margin-bottom: 10px;text-align: center;font-size: 18px;">@TempData["Durum"]</span>
+    </div>
+}
+<div class="row">
+    <a href="@Url.Action("CategoryAdd","Admin")" class="btn btn-primary"><i class="fa fa-plus-square"></i></a>
+</div>
+<table class="table">
+    <tr>
+        <td>#</td>
+        <td>Kategori İsmi</td>
+        <td>İşlemler</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ID</td>
+            <td>@item.CategoryName</td>
+            <td>
+                <a href="@Url.Action("CategoryEdit","Admin", new {id = item.ID })" class="btn btn-warning"><i class="fa fa-pencil-square-o"></i></a>
+                <a href="@Url.Action("CategoryDelete","Admin", new {id = item.ID })" class="btn btn-danger"><i class="fa fa-trash-o"></i></a>
+            </td>
+        </tr>
+    }
+</table>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<div class="row">
+    <span style="background-color: #bab5b5;color:white;padding:10px;border-radius: 10px;width: 100%;float: left;margin-bottom: 10px;text-align: center;font-size: 18px;">1.Bayan, 2.Bay, 3.Aksesuar olarak giriniz.</span>
+</div>
+@Html.PagedListPager((IPagedList)Model, page => Url.Action("CategoryList", new {page}))

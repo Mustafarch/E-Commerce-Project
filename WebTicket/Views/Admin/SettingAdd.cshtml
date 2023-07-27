@@ -1,0 +1,49 @@
+﻿@model WebTicket.Entities.Setting
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+@if (ViewBag.Durum != null)
+{
+	<span style="background-color: #3db527;color:white;padding:10px;border-radius: 10px;width: 100%;float: left;margin-bottom: 10px;text-align: center;font-size: 18px;">@ViewBag.Durum</span>
+
+}
+
+@using (Html.BeginForm())
+{
+    <div class="row">
+        <div class="col-md-2">Site Adı</div>
+        <div class="col-md-10">@Html.TextAreaFor(x=>x.SiteName, new{@class="form-control"})</div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-2">Açıklama</div>
+        <div class="col-md-10">@Html.TextAreaFor(x=>x.Explanation, new{@class="form-control"})</div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-2">Adres</div>
+        <div class="col-md-10">@Html.TextAreaFor(x=>x.Adress, new{@class="form-control"})</div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-2">Telefon</div>
+        <div class="col-md-10">@Html.TextAreaFor(x=>x.Phone, new{@class="form-control"})</div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-2">Mail</div>
+        <div class="col-md-10">@Html.TextAreaFor(x=>x.Mail, new{@class="form-control"})</div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-2">Hakkımızda</div>
+        <div class="col-md-10">@Html.TextAreaFor(x=>x.About, new{@class="form-control",@rows="8"})</div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-12"><input type="submit" value="Kaydet" class="btn btn-success" /></div>
+    </div>
+}

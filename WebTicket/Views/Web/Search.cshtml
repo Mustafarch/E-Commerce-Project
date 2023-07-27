@@ -1,0 +1,125 @@
+﻿@{
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+@if (ViewBag.Durum != null)
+{
+	<div class="row">
+			<span style="background-color: #ddcc57;color:white;padding:10px;border-radius: 10px;width: 100%;float: left;margin-bottom: 10px;text-align: center;font-size: 18px;">@ViewBag.Durum</span>
+    </div>
+}
+<br />
+<br />
+<br />
+@if (ViewBag.BlogSearch.Count > 0)
+{
+	<h2 style="text-align:center">Blog</h2>
+}
+<br />
+<br />
+<div class="row">
+	@foreach (var item in ViewBag.BlogSearch)
+	{
+		@if (ViewBag.BlogSearch != null)
+		{
+			<div class="col-sm-6 col-md-4 p-b-40">
+				<div class="blog-item">
+					<div class="hov-img0">
+						<a href="@Url.Action("BlogDetail","Web", new{id=item.ID})">
+							<img src="@item.Picture" width="210" height="280" alt="IMG-BLOG">
+						</a>
+					</div>
+
+					<div class="p-t-15">
+						<div class="stext-107 flex-w p-b-14">
+							<span class="m-r-3">
+								<span class="cl4">
+									Yazar
+								</span>
+
+								<span class="cl5">
+									@item.Author
+								</span>
+							</span>
+
+							<span>
+								<span class="cl4">
+									Tarih
+								</span>
+
+								<span class="cl5">
+									@item.History
+								</span>
+							</span>
+						</div>
+
+						<h4 class="p-b-12">
+							<a href="@Url.Action("BlogDetail","Web", new{id=item.ID})" class="mtext-101 cl2 hov-cl1 trans-04">
+								@item.Title
+							</a>
+						</h4>
+
+						<p class="stext-108 cl6">
+							@item.Contents.Substring(0,60)<span>...</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		}
+	}
+</div>
+
+@if (ViewBag.ProductSearch.Count > 0)
+{
+	<h2 style="text-align:center">Ürünler</h2>
+}
+<br />
+<br />
+
+<div class="tab-pane fade show active" id="best-seller" role="tabpanel">
+	<!-- Slide2 -->
+	<div class="wrap-slick2">
+		<div class="slick2">
+			@foreach (var item in ViewBag.ProductSearch)
+			{
+				@if (ViewBag.ProductSearch != null)
+				{
+					<div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
+						<!-- Block2 -->
+						<div class="block2">
+							<div class="block2-pic hov-img0">
+								<img src="@item.ProductPicture" height="400"  alt="IMG-PRODUCT">
+
+								<a href="@Url.Action("ProductDet","Web", new{id=item.ID})" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 ">
+									Ayrıntılı Gör
+								</a>
+							</div>
+
+							<div class="block2-txt flex-w flex-t p-t-14">
+								<div class="block2-txt-child1 flex-col-l ">
+									<a href="@Url.Action("ProductDet","Web", new{id=item.ID})" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+										@item.ProductName
+									</a>
+
+									<span class="stext-105 cl3">
+										@item.ProductPrice TL
+									</span>
+								</div>
+
+
+							</div>
+						</div>
+
+					</div>
+				}
+			}
+		</div>
+	</div>
+</div>
+</div>

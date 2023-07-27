@@ -1,0 +1,51 @@
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.csproj.AssemblyReference.cache
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.AssemblyInfoInputs.cache
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.AssemblyInfo.cs
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.csproj.CoreCompileInputs.cache
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket.DAL\bin\Debug\net6.0\WebTicket.DAL.deps.json
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket.DAL\bin\Debug\net6.0\WebTicket.DAL.runtimeconfig.json
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket.DAL\bin\Debug\net6.0\WebTicket.DAL.dll
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket.DAL\bin\Debug\net6.0\WebTicket.DAL.pdb
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket.DAL\bin\Debug\net6.0\WebTicket.Entities.dll
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket.DAL\bin\Debug\net6.0\WebTicket.Entities.pdb
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.csproj.CopyComplete
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.dll
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket.DAL\obj\Debug\net6.0\refint\WebTicket.DAL.dll
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.pdb
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.genruntimeconfig.cache
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket.DAL\obj\Debug\net6.0\ref\WebTicket.DAL.dll
+C:\Users\musta\Desktop\Teslim E - Ticaret\WebTicket\WebTicket.DAL\bin\Debug\net6.0\WebTicket.DAL.deps.json
+C:\Users\musta\Desktop\Teslim E - Ticaret\WebTicket\WebTicket.DAL\bin\Debug\net6.0\WebTicket.DAL.runtimeconfig.json
+C:\Users\musta\Desktop\Teslim E - Ticaret\WebTicket\WebTicket.DAL\bin\Debug\net6.0\WebTicket.DAL.dll
+C:\Users\musta\Desktop\Teslim E - Ticaret\WebTicket\WebTicket.DAL\bin\Debug\net6.0\WebTicket.DAL.pdb
+C:\Users\musta\Desktop\Teslim E - Ticaret\WebTicket\WebTicket.DAL\bin\Debug\net6.0\WebTicket.Entities.dll
+C:\Users\musta\Desktop\Teslim E - Ticaret\WebTicket\WebTicket.DAL\bin\Debug\net6.0\WebTicket.Entities.pdb
+C:\Users\musta\Desktop\Teslim E - Ticaret\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.csproj.AssemblyReference.cache
+C:\Users\musta\Desktop\Teslim E - Ticaret\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musta\Desktop\Teslim E - Ticaret\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.AssemblyInfoInputs.cache
+C:\Users\musta\Desktop\Teslim E - Ticaret\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.AssemblyInfo.cs
+C:\Users\musta\Desktop\Teslim E - Ticaret\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.csproj.CoreCompileInputs.cache
+C:\Users\musta\Desktop\Teslim E - Ticaret\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.csproj.CopyComplete
+C:\Users\musta\Desktop\Teslim E - Ticaret\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.dll
+C:\Users\musta\Desktop\Teslim E - Ticaret\WebTicket\WebTicket.DAL\obj\Debug\net6.0\refint\WebTicket.DAL.dll
+C:\Users\musta\Desktop\Teslim E - Ticaret\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.pdb
+C:\Users\musta\Desktop\Teslim E - Ticaret\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.genruntimeconfig.cache
+C:\Users\musta\Desktop\Teslim E - Ticaret\WebTicket\WebTicket.DAL\obj\Debug\net6.0\ref\WebTicket.DAL.dll
+C:\Users\musta\OneDrive\Masaüstü\Mustafa Küçük (E-Ticaret)\Mustafa Küçük (E-Ticaret)\WebTicket\WebTicket.DAL\bin\Debug\net6.0\WebTicket.DAL.deps.json
+C:\Users\musta\OneDrive\Masaüstü\Mustafa Küçük (E-Ticaret)\Mustafa Küçük (E-Ticaret)\WebTicket\WebTicket.DAL\bin\Debug\net6.0\WebTicket.DAL.runtimeconfig.json
+C:\Users\musta\OneDrive\Masaüstü\Mustafa Küçük (E-Ticaret)\Mustafa Küçük (E-Ticaret)\WebTicket\WebTicket.DAL\bin\Debug\net6.0\WebTicket.DAL.dll
+C:\Users\musta\OneDrive\Masaüstü\Mustafa Küçük (E-Ticaret)\Mustafa Küçük (E-Ticaret)\WebTicket\WebTicket.DAL\bin\Debug\net6.0\WebTicket.DAL.pdb
+C:\Users\musta\OneDrive\Masaüstü\Mustafa Küçük (E-Ticaret)\Mustafa Küçük (E-Ticaret)\WebTicket\WebTicket.DAL\bin\Debug\net6.0\WebTicket.Entities.dll
+C:\Users\musta\OneDrive\Masaüstü\Mustafa Küçük (E-Ticaret)\Mustafa Küçük (E-Ticaret)\WebTicket\WebTicket.DAL\bin\Debug\net6.0\WebTicket.Entities.pdb
+C:\Users\musta\OneDrive\Masaüstü\Mustafa Küçük (E-Ticaret)\Mustafa Küçük (E-Ticaret)\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.csproj.AssemblyReference.cache
+C:\Users\musta\OneDrive\Masaüstü\Mustafa Küçük (E-Ticaret)\Mustafa Küçük (E-Ticaret)\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musta\OneDrive\Masaüstü\Mustafa Küçük (E-Ticaret)\Mustafa Küçük (E-Ticaret)\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.AssemblyInfoInputs.cache
+C:\Users\musta\OneDrive\Masaüstü\Mustafa Küçük (E-Ticaret)\Mustafa Küçük (E-Ticaret)\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.AssemblyInfo.cs
+C:\Users\musta\OneDrive\Masaüstü\Mustafa Küçük (E-Ticaret)\Mustafa Küçük (E-Ticaret)\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.csproj.CoreCompileInputs.cache
+C:\Users\musta\OneDrive\Masaüstü\Mustafa Küçük (E-Ticaret)\Mustafa Küçük (E-Ticaret)\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.csproj.CopyComplete
+C:\Users\musta\OneDrive\Masaüstü\Mustafa Küçük (E-Ticaret)\Mustafa Küçük (E-Ticaret)\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.dll
+C:\Users\musta\OneDrive\Masaüstü\Mustafa Küçük (E-Ticaret)\Mustafa Küçük (E-Ticaret)\WebTicket\WebTicket.DAL\obj\Debug\net6.0\refint\WebTicket.DAL.dll
+C:\Users\musta\OneDrive\Masaüstü\Mustafa Küçük (E-Ticaret)\Mustafa Küçük (E-Ticaret)\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.pdb
+C:\Users\musta\OneDrive\Masaüstü\Mustafa Küçük (E-Ticaret)\Mustafa Küçük (E-Ticaret)\WebTicket\WebTicket.DAL\obj\Debug\net6.0\WebTicket.DAL.genruntimeconfig.cache
+C:\Users\musta\OneDrive\Masaüstü\Mustafa Küçük (E-Ticaret)\Mustafa Küçük (E-Ticaret)\WebTicket\WebTicket.DAL\obj\Debug\net6.0\ref\WebTicket.DAL.dll

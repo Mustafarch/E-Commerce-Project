@@ -1,0 +1,232 @@
+﻿@model WebTicket.Entities.Product
+
+@{
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+	<div class="bread-crumb flex-w p-l-25 p-r-15 p-t-30 p-lr-0-lg">
+		<a href="@Url.Action("Index","Web")" class="stext-109 cl8 hov-cl1 trans-04">
+			Anasayfa
+			<i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
+		</a>
+
+		<a href="product.html" class="stext-109 cl8 hov-cl1 trans-04">
+			Bay
+			<i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
+		</a>
+
+		<span class="stext-109 cl4">
+			@Model.ProductName
+		</span>
+	</div>
+</div>
+
+
+
+<section class="sec-product-detail bg0 p-t-65 p-b-60">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-7 p-b-30">
+					<div class="p-l-25 p-r-30 p-lr-0-lg">
+						<div class="wrap-slick3 flex-sb flex-w">
+							
+				
+
+							<div class="slick3 gallery-lb slick-initialized slick-slider slick-dotted">
+								<div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 1383px;"><div class="item-slick3 slick-slide slick-current slick-active" data-thumb="images/product-detail-01.jpg" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide10" aria-describedby="slick-slide-control10" style="width: 461px; position: relative; 
+: 0px; top: 0px; z-index: 999; opacity: 1;">
+									<div class="wrap-pic-w pos-relative">
+										<img src="@Model.ProductPicture" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="@Model.ProductPicture" tabindex="0">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div></div></div>
+
+								
+
+								
+							</div>
+						</div>
+					</div>
+				</div>
+					
+				<div class="col-md-6 col-lg-5 p-b-30">
+					<div class="p-r-50 p-t-5 p-lr-0-lg">
+						<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+							@Model.ProductName
+						</h4>
+
+						<span class="mtext-106 cl2">
+							@Model.ProductPrice
+						</span>
+					
+						<p class="stext-102 cl3 p-t-23">
+						    @Model.ProductExplanation
+						</p>
+						<p class="stext-102 cl3 p-t-23">
+						   Boyut: @Model.ProductSize
+						</p>
+						<p class="stext-102 cl3 p-t-23">
+						   Renk: @Model.ProductColor
+						</p>
+						
+						<!--  -->
+
+						@using (Html.BeginForm())
+                  {
+
+
+					<div class="p-t-33">
+						<div class="flex-w flex-r-m p-b-10">
+							
+
+							
+						</div>
+
+						<div class="flex-w flex-r-m p-b-10">
+							
+
+						
+						</div>
+
+						<div class="flex-w flex-r-m p-b-10">
+							<div class="size-204 flex-w flex-m respon6-next">
+								
+
+								
+								<a href="@Url.Action("CartAdd","Web", new {id = Model.ID })" class="btn btn-primary">Sepete Ekle</a>
+						
+							
+							</div>
+						</div>
+					</div>
+					}
+					
+
+						<!--  -->
+				
+					</div>
+				</div>
+			</div>
+
+
+		<div class="p-t-40">
+			<div class="bor10 m-t-50 p-t-43 p-b-40">
+				<!-- Tab01 -->
+				<div class="tab01">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+
+
+
+
+						<li class="nav-item p-b-10">
+							<a class="nav-link active" data-toggle="tab" href="#reviews" role="tab" aria-expanded="true">Yorum (@ViewBag.ProductReview.Count)</a>
+						</li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content p-t-43">
+						<!-- - -->
+						<!-- - -->
+						<!-- - -->
+
+						<div class="row">
+							<div class="col-sm-10 col-md-8 col-lg-6 m-lr-auto">
+								<div class="p-b-30 m-lr-15-sm">
+									<!-- Review -->
+									@foreach (var item in ViewBag.ProductReview)
+									{
+										<div class="flex-w flex-t p-b-68">
+											<div class="wrap-pic-s size-109 bor0 of-hidden m-r-18 m-t-6">
+												<img src="@item.Picture" alt="AVATAR">
+											</div>
+
+											<div class="size-207">
+												<div class="flex-w flex-sb-m p-b-17">
+													<span class="mtext-107 cl2 p-r-20">
+														@item.NameSurname
+													</span>
+													<span class="date">@item.Date.ToLongDateString()</span>
+
+
+												</div>
+
+												<p class="stext-102 cl6">
+													@item.Review
+												</p>
+											</div>
+										</div>
+
+									}
+
+
+
+
+
+									<!-- Add review -->
+									@*<form class="w-full">*@
+
+
+									<h5 class="mtext-108 cl2 p-b-7">
+										Yorum Ekle
+									</h5>
+
+									<p class="stext-102 cl6">
+										E-posta hesabınız yayımlanmayacak.
+
+									</p>
+
+									@using (Html.BeginForm("ReviewProductAdd", "Web"))
+									{
+
+										<div class="row p-b-25">
+											<input type="hidden" name="ProductID" value="@Model.ID" />
+											<div class="col-12 p-b-5">
+												<label class="stext-102 cl3" for="review">Yorum</label>
+												<textarea class="size-110 bor8 stext-102 cl2 p-lr-20 p-tb-10" name="Review" required></textarea>
+											</div>
+
+											<div class="col-sm-6 p-b-5">
+												<label class="stext-102 cl3" for="name">Ad Soyad</label>
+												<input class="size-111 bor8 stext-102 cl2 p-lr-20" type="text" name="NameSurname" required>
+											</div>
+
+											<div class="col-sm-6 p-b-5">
+												<label class="stext-102 cl3" for="email">Mail</label>
+												<input class="size-111 bor8 stext-102 cl2 p-lr-20" type="text" name="Mail" required>
+											</div>
+										</div>
+										<div class="col-sm-6 p-b-5">
+											<label class="stext-102 cl3" for="name">Resim Url.</label>
+											<input class="size-111 bor8 stext-102 cl2 p-lr-20" type="text" name="Picture" required>
+										</div>
+
+										<button class="flex-c-m stext-101 cl0 size-112 bg7 bor11 hov-btn3 p-lr-15 trans-04 m-b-10">
+											Gönder
+										</button>
+
+
+									}
+									@*</form>*@
+
+
+
+
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+	
+	</section>

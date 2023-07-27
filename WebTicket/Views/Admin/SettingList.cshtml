@@ -1,0 +1,44 @@
+﻿@model List<WebTicket.Entities.Setting>
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@if (TempData["Durum"] != null)
+{
+    <div class="row">
+        <span style="background-color: #ed4949;color:white;padding:10px;border-radius: 10px;width: 100%;float: left;margin-bottom: 10px;text-align: center;font-size: 18px;">@TempData["Durum"]</span>
+    </div>
+}
+<div class="row">
+    <a href="@Url.Action("SettingAdd","Admin")" class="btn btn-primary">Varsayılan Ayar Yoksa Ekleyin</a>
+</div>
+
+<table class="table">
+    <tr>
+        <td>#</td>
+        <td>Site Adı</td>
+        <td>Açıklama</td>
+        <td>Adres</td>
+        <td>Telefon</td>
+        <td>Mail</td>
+        <td>Hakkında</td>
+        <td>İşlemler</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ID</td>
+            <td>@item.SiteName</td>
+            <td>@item.Explanation</td>
+            <td>@item.Adress</td>
+            <td>@item.Phone</td>
+            <td>@item.Mail</td>
+            <td>@item.About.Substring(0,5)<span>...</span></td>
+            <td>
+                <a href="@Url.Action("SettingEditt","Admin", new {id = item.ID })" class="btn btn-warning"><i class="fa fa-pencil-square-o"></i></a>
+                
+            </td>
+        </tr>
+    }
+</table>

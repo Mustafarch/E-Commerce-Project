@@ -1,0 +1,36 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+
+@model List<WebTicket.Entities.Satilanlar>
+
+<table class="table">
+    <tr>
+        <td>#</td>
+        <td>Ürün ID</td>
+        <td>Ürün Adı</td>
+        <td>Ürün Adeti</td>
+        <td>Ürün Adet Toplam Tutar</td>
+       
+       
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ID</td>
+           
+            <td>@item.ProductID</td>
+            <td>@item.ProductName</td>
+            <td>@item.ProductQuantity</td>
+            <td>@item.ProductTotal</td>
+        
+           
+           
+        </tr>
+    }
+</table>
+<br />
+
+<h4 style="float:right; margin-right:80px">Toplam Tutar : @Model.Sum(x=>x.ProductTotal) ₺</h4>

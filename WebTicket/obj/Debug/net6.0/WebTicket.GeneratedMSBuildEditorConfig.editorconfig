@@ -1,0 +1,185 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebTicket
+build_property.RootNamespace = WebTicket
+build_property.ProjectDir = C:\Users\xduma\Desktop\GitHub a yüklenecek projeler\WebTicket\WebTicket\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\xduma\Desktop\GitHub a yüklenecek projeler\WebTicket\WebTicket
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Admin/AboutEditt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWJvdXRFZGl0dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Admin/Blog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQmxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Admin/BlogAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQmxvZ0FkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Admin/BlogEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQmxvZ0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Admin/CategoryAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcnlBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Admin/CategoryEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcnlFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Admin/CategoryList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcnlMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Admin/ContactDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29udGFjdERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Admin/ContactList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29udGFjdExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Admin/ProductAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Admin/ProductEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Admin/ProductList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Admin/SettingAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2V0dGluZ0FkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Admin/SettingEditt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2V0dGluZ0VkaXR0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Admin/SettingList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2V0dGluZ0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Admin/SliderAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2xpZGVyQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Admin/SliderEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2xpZGVyRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Admin/SliderList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2xpZGVyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Web/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViXEFib3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Web/Blog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViXEJsb2cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Web/BlogDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViXEJsb2dEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Web/CategoryFiltre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViXENhdGVnb3J5RmlsdHJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Web/CheckOutEnd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViXENoZWNrT3V0RW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Web/ContactAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViXENvbnRhY3RBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Web/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Web/Onay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViXE9uYXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Web/ProductDet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViXFByb2R1Y3REZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Web/ProductL.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViXFByb2R1Y3RMLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Web/SatilanListesi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViXFNhdGlsYW5MaXN0ZXNpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Web/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViXFNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Web/SepetList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViXFNlcGV0TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Web/SiparisListesi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViXFNpcGFyaXNMaXN0ZXNpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/xduma/Desktop/GitHub a yüklenecek projeler/WebTicket/WebTicket/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-98cpzb9eea

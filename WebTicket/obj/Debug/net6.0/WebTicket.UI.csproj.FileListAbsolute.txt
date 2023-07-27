@@ -1,0 +1,12 @@
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket\obj\Debug\net6.0\WebTicket.UI.csproj.AssemblyReference.cache
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket\obj\Debug\net6.0\WebTicket.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket\obj\Debug\net6.0\WebTicket.UI.AssemblyInfoInputs.cache
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket\obj\Debug\net6.0\WebTicket.UI.AssemblyInfo.cs
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket\obj\Debug\net6.0\WebTicket.UI.csproj.CoreCompileInputs.cache
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket\obj\Debug\net6.0\WebTicket.UI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket\obj\Debug\net6.0\WebTicket.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket\obj\Debug\net6.0\WebTicket.UI.RazorAssemblyInfo.cache
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket\obj\Debug\net6.0\WebTicket.UI.RazorAssemblyInfo.cs
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket\obj\Debug\net6.0\WebTicket.UI.dll
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket\obj\Debug\net6.0\refint\WebTicket.UI.dll
+C:\Users\musta\Desktop\28.08.2022 Eticaret.Mustafa\WebTicket\WebTicket\obj\Debug\net6.0\WebTicket.UI.pdb

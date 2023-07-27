@@ -1,0 +1,393 @@
+﻿@{
+    Layout = null;
+}
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="~/Panel/images/favicon.ico" type="image/ico" />
+
+    <title>Mustafa Küçük | Yönetici </title>
+
+    <!-- Bootstrap -->
+    <link href="~/Panel/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="~/Panel/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="~/Panel/vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="~/Panel/vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+
+    <!-- bootstrap-progressbar -->
+    <link href="~/Panel/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+    <!-- JQVMap -->
+    <link href="~/Panel/vendors/jqvmap/dist/jqvmap.min.css" rel="stylesheet" />
+    <!-- bootstrap-daterangepicker -->
+    <link href="~/Panel/vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="~/Panel/build/css/custom.min.css" rel="stylesheet">
+</head>
+
+<body class="nav-md">
+    <div class="container body">
+        <div class="main_container">
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="@Url.Action("Index","Admin")" class="site_title"><i class="fa fa-paw"></i> <span>Yönetim Paneli</span></a>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <!-- menu profile quick info -->
+                    <div class="profile clearfix">
+                        <div class="profile_pic">
+                            <img src="~/Panel/build/images/Yon.jpg" height="52" alt="..." class="img-circle profile_img">
+                        </div>
+                        <div class="profile_info">
+                            <span>Hoş Geldin</span>
+                            <h2>Mustafa Küçük</h2>
+                        </div>
+                    </div>
+                    <!-- /menu profile quick info -->
+
+                    <br />
+
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <div class="menu_section">
+                            <h3>Yönetim</h3>
+                            <ul class="nav side-menu">
+                              
+                                 
+                                <li>
+                                    <a class="nav-link" href="@Url.Action("Index","Admin")">
+                                        <span class="menu-title"><i class="fa fa-home" aria-hidden="true"></i>Anasayfa</span>
+                                        <i class="mdi mdi-home menu-icon"></i>
+                                    </a>
+                                </li>
+                                 
+                          @*      <li>
+                                    <a> Ekleme Sayfaları <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="@Url.Action("ProductAdd","Admin")">Ürün Ekle</a></li>
+                                        <li><a href="@Url.Action("CategoryAdd","Admin")">Kategori Ekle</a></li>
+                                        <li><a href="@Url.Action("BlogAdd","Admin")">Blog Ekle</a></li>
+                                        <li><a href="@Url.Action("SliderAdd","Admin")">Slider Ekle</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a> Listeleme Sayfaları <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="@Url.Action("ProductList","Admin")">Ürün Listele</a></li>
+                                        <li><a href="@Url.Action("CategoryList","Admin")">Kategori Listele</a></li>
+                                        <li><a href="@Url.Action("Blog","Admin")">Blog Listele</a></li>
+                                        <li><a href="@Url.Action("SliderList","Admin")">Slider Listele</a></li>
+                                    </ul>
+                                </li>*@
+                                <li>
+                                    <a class="nav-link" href="@Url.Action("ProductList","Admin")">
+                                        <span class="menu-title"><i class="fa fa-product-hunt" aria-hidden="true"></i>Ürünler</span>
+                                        <i class="mdi mdi-home menu-icon"></i>
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a class="nav-link" href="@Url.Action("Blog","Admin")">
+                                        <span class="menu-title"><i class="fa fa-bold" aria-hidden="true"></i>Bloglar</span>
+                                        <i class="mdi mdi-home menu-icon"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="@Url.Action("SliderList","Admin")">
+                                        <span class="menu-title"><i class="fa fa-scribd" aria-hidden="true"></i>Sliderlar</span>
+                                        <i class="mdi mdi-home menu-icon"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="@Url.Action("CategoryList","Admin")">
+                                        <span class="menu-title"><i class="fa fa-calendar-o" aria-hidden="true"></i>Kategoriler</span>
+                                        <i class="mdi mdi-home menu-icon"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="@Url.Action("SiparisListesi","Web")">
+                                        <span class="menu-title"><i class="fa fa-shopping-bag" aria-hidden="true"></i>Siparişler</span>
+                                        <i class="mdi mdi-home menu-icon"></i>
+                                    </a>
+                                </li>
+                              @*  <li>
+                                    <a class="nav-link" href="@Url.Action("ProductAdd","Admin")">
+                                        <span class="menu-title">Ürün Ekle</span>
+                                        <i class="mdi mdi-home menu-icon"></i>
+                                    </a>
+                                </li>
+                                @*<li>
+                                    <a class="nav-link" href="@Url.Action("ProductList","Admin")">
+                                        <span class="menu-title">Ürün Listele</span>
+                                        <i class="mdi mdi-home menu-icon"></i>
+                                    </a>
+                                </li>*@
+                               @* <li>
+                                    <a class="nav-link" href="@Url.Action("CategoryAdd","Admin")">
+                                        <span class="menu-title">Kategori Ekle</span>
+                                        <i class="mdi mdi-home menu-icon"></i>
+                                    </a>
+                                </li>*@
+                               @* <li>
+                                    <a class="nav-link" href="@Url.Action("CategoryList","Admin")">
+                                        <span class="menu-title">Kategori Listele</span>
+                                        <i class="mdi mdi-home menu-icon"></i>
+                                    </a>
+                                </li>*@
+                             
+                               @* <li>
+                                    <a class="nav-link" href="@Url.Action("BlogAdd","Admin")">
+                                        <span class="menu-title">Blog Ekle</span>
+                                        <i class="mdi mdi-home menu-icon"></i>
+                                    </a>
+                                </li>*@
+                               @* <li>
+                                    <a class="nav-link" href="@Url.Action("Blog","Admin")">
+                                        <span class="menu-title">Blog Listele</span>
+                                        <i class="mdi mdi-home menu-icon"></i>
+                                    </a>
+                                </li>*@
+                                @*<li>
+                                    <a class="nav-link" href="@Url.Action("SliderAdd","Admin")">
+                                        <span class="menu-title">Slider Ekle</span>
+                                        <i class="mdi mdi-home menu-icon"></i>
+                                    </a>
+                                </li>*@
+                               @* <li>
+                                    <a class="nav-link" href="@Url.Action("SliderList","Admin")">
+                                        <span class="menu-title">Slider Listesi</span>
+                                        <i class="mdi mdi-home menu-icon"></i>
+                                    </a>
+                                </li>*@
+                               @* <li>
+                                    <a class="nav-link" href="@Url.Action("SettingEditt","Admin")">
+                                        <span class="menu-title">Hakkımızda Düzenle</span>
+                                        <i class="mdi mdi-home menu-icon"></i>
+                                    </a>
+                                </li>*@
+                                <li>
+                                    <a class="nav-link" href="@Url.Action("ContactList","Admin")">
+                                        <span class="menu-title"><i class="fa fa-comment" aria-hidden="true"></i>Kullanıcı Mesajları</span>
+                                        <i class="mdi mdi-home menu-icon"></i>
+                                    </a>
+                                </li>
+                               @* <li>
+                                    <a class="nav-link" href="@Url.Action("SettingEditt","Admin")">
+                                        <span class="menu-title">Ayarlar</span>
+                                        <i class="mdi mdi-home menu-icon"></i>
+                                    </a>
+                                </li>*@
+                                
+                                <li>
+                                    <a class="nav-link" href="@Url.Action("SettingList","Admin")">
+                                        <span class="menu-title"><i class="fa fa-cog" aria-hidden="true"></i>Ayarlar</span>
+                                        <i class="mdi mdi-home menu-icon"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <!-- /sidebar menu -->
+                    <!-- /menu footer buttons -->
+                    <div class="sidebar-footer hidden-small">
+                        <a data-toggle="tooltip" data-placement="top" title="Ayarlar">
+                            <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="Ekranı Kapla">
+                            <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="Kilit">
+                            <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="Çıkış Yap" href="@Url.Action("Index","Login")">
+                            <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                    <!-- /menu footer buttons -->
+                </div>
+            </div>
+
+            <!-- top navigation -->
+            <div class="top_nav">
+                <div class="nav_menu">
+                    
+                <nav>
+                        <a href="@Url.Action("Index","Web")" class="btn btn-success"><i class="fa fa-external-link-square" aria-hidden="true"></i>  Siteye Git</a>
+
+
+                        <a id="menu_toggle"><i class="fa fa-bars"></i> </a>
+                    
+                       
+                        
+                           
+                            
+
+                     
+                           
+                        
+                        
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="">
+                                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="~/Panel/build/images/Yon.jpg" alt="">Mustafa Küçük
+                                    <span class=" fa fa-angle-down"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                    <li><a href="@Url.Action("Index","Admin")"> Anasayfa</a></li>
+                                    <li>
+                                        <a href="@Url.Action("SettingList","Admin")">
+
+                                            <span>Ayarlar</span>
+                                        </a>
+                                    </li>
+                                    <li><a href="@Url.Action("ContactList","Admin")">Yardım</a></li>
+                                    <li><a href="@Url.Action("Index","Login")"><i class="fa fa-sign-out pull-right"></i> Çıkış Yap</a></li>
+                                </ul>
+                            </li>
+
+                          @*  <li role="presentation" class="dropdown">
+                                <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa fa-envelope-o"></i>
+                                    <span class="badge bg-green">6</span>
+                                </a>
+                                <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">*@
+                                   @* <li>
+                                        <a>
+                                            <span class="image"><img src="~/Panel/images/img.jpg" alt="Profile Image" /></span>
+                                            <span>
+                                                <span>John Smith</span>
+                                                <span class="time">3 mins ago</span>
+                                            </span>
+                                            <span class="message">
+                                                Film festivals used to be do-or-die moments for movie makers. They were where...
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <span class="image"><img src="~/Panel/images/img.jpg" alt="Profile Image" /></span>
+                                            <span>
+                                                <span>John Smith</span>
+                                                <span class="time">3 mins ago</span>
+                                            </span>
+                                            <span class="message">
+                                                Film festivals used to be do-or-die moments for movie makers. They were where...
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <span class="image"><img src="~/Panel/images/img.jpg" alt="Profile Image" /></span>
+                                            <span>
+                                                <span>John Smith</span>
+                                                <span class="time">3 mins ago</span>
+                                            </span>
+                                            <span class="message">
+                                                Film festivals used to be do-or-die moments for movie makers. They were where...
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <span class="image"><img src="~/Panel/images/img.jpg" alt="Profile Image" /></span>
+                                            <span>
+                                                <span>John Smith</span>
+                                                <span class="time">3 mins ago</span>
+                                            </span>
+                                            <span class="message">
+                                                Film festivals used to be do-or-die moments for movie makers. They were where...
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <div class="text-center">
+                                            <a>
+                                                <strong>See All Alerts</strong>
+                                                <i class="fa fa-angle-right"></i>
+                                            </a>
+                                        </div>
+                                    </li>*@
+                              @*  </ul>
+                            </li>*@
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- /top navigation -->
+            <!-- page content -->
+            <div class="right_col" role="main">
+
+                @RenderBody()
+            </div>
+            <!-- /page content -->
+            <!-- footer content -->
+            <footer>
+                <div class="pull-right">
+                    Yönetici Paneli - Site sahibi | <a href="#">Mustafa Küçük</a>
+                </div>
+                <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="~/Panel/vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="~/Panel/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="~/Panel/vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="~/Panel/vendors/nprogress/nprogress.js"></script>
+    <!-- Chart.js -->
+    <script src="~/Panel/vendors/Chart.js/dist/Chart.min.js"></script>
+    <!-- gauge.js -->
+    <script src="~/Panel/vendors/gauge.js/dist/gauge.min.js"></script>
+    <!-- bootstrap-progressbar -->
+    <script src="~/Panel/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <!-- iCheck -->
+    <script src="~/Panel/vendors/iCheck/icheck.min.js"></script>
+    <!-- Skycons -->
+    <script src="~/Panel/vendors/skycons/skycons.js"></script>
+    <!-- Flot -->
+    <script src="~/Panel/vendors/Flot/jquery.flot.js"></script>
+    <script src="~/Panel/vendors/Flot/jquery.flot.pie.js"></script>
+    <script src="~/Panel/vendors/Flot/jquery.flot.time.js"></script>
+    <script src="~/Panel/vendors/Flot/jquery.flot.stack.js"></script>
+    <script src="~/Panel/vendors/Flot/jquery.flot.resize.js"></script>
+    <!-- Flot plugins -->
+    <script src="~/Panel/vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+    <script src="~/Panel/vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+    <script src="~/Panel/vendors/flot.curvedlines/curvedLines.js"></script>
+    <!-- DateJS -->
+    <script src="~/Panel/vendors/DateJS/build/date.js"></script>
+    <!-- JQVMap -->
+    <script src="~/Panel/vendors/jqvmap/dist/jquery.vmap.js"></script>
+    <script src="~/Panel/vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+    <script src="~/Panel/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script src="~/Panel/vendors/moment/min/moment.min.js"></script>
+    <script src="~/Panel/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="~/Panel/build/js/custom.min.js"></script>
+
+</body>
+</html>

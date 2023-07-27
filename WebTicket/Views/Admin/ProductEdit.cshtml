@@ -1,0 +1,57 @@
+﻿@model WebTicket.Entities.Product
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@if (ViewBag.Durum != null)
+{
+    <span style="background-color:red;color:white;padding:10px">@ViewBag.Durum</span>
+
+}
+@using (Html.BeginForm())
+{
+    <div class="row">
+        <div class="col-md-2">Ürün Adı</div>
+        <div class="col-md-10">@Html.TextBoxFor(x=>x.ProductName, new{@class="form-control"})</div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-2">Ürün Fiyatı</div>
+        <div class="col-md-10">@Html.TextBoxFor(x=>x.ProductPrice, new{@class="form-control"})</div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-2">Ürün Resmi</div>
+        <div class="col-md-10">@Html.TextBoxFor(x=>x.ProductPicture, new{@class="form-control"})</div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-2">Ürün Boyutu</div>
+        <div class="col-md-10">@Html.TextBoxFor(x=>x.ProductSize, new{@class="form-control"})</div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-2">Ürün Renk</div>
+        <div class="col-md-10">@Html.TextBoxFor(x=>x.ProductColor, new{@class="form-control"})</div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-2">Ürün Stok</div>
+        <div class="col-md-10">@Html.TextBoxFor(x=>x.ProductStok, new{@class="form-control"})</div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-2">Ürün Açıklama</div>
+        <div class="col-md-10">@Html.TextBoxFor(x=>x.ProductExplanation, new{@class="form-control"})</div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-2">Ürün Kategori</div>
+        <div class="col-md-10">@Html.TextBoxFor(x=>x.CategoryID, new{@class="form-control"})</div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-12"><input type="submit" value="Düzenle" class="btn btn-success" /></div>
+    </div>
+}

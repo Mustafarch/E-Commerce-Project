@@ -1,0 +1,31 @@
+﻿@model WebTicket.Entities.Slider
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@if (ViewBag.Durum != null)
+{
+    <span style="background-color:red;color:white;padding:10px">@ViewBag.Durum</span>
+
+}
+@using (Html.BeginForm())
+{
+    <div class="row">
+        <div class="col-md-2">Slider Başlığı</div>
+        <div class="col-md-10">@Html.TextBoxFor(x=>x.Title, new{@class="form-control"})</div>
+    </div><br />
+    <div class="row">
+        <div class="col-md-2">Slider İçeriği</div>
+        <div class="col-md-10">@Html.TextBoxFor(x=>x.Contents, new{@class="form-control"})</div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-2">Slider Resmi</div>
+        <div class="col-md-10">@Html.TextBoxFor(x=>x.Picture, new{@class="form-control"})</div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-12"><input type="submit" value="Ekle" class="btn btn-success" /></div>
+    </div>
+}

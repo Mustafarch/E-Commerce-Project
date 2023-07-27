@@ -1,0 +1,44 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@using X.PagedList
+@using X.PagedList.Mvc.Core
+
+@model IPagedList<WebTicket.Entities.Siparis>
+
+@if (TempData["Durum"] != null)
+{
+    <div class="row">
+        <span style="background-color: #ed4949;color:white;padding:10px;border-radius: 10px;width: 100%;float: left;margin-bottom: 10px;text-align: center;font-size: 18px;">@TempData["Durum"]</span>
+    </div>
+}
+<table class="table">
+    <tr>
+        <td>#</td>
+        <td>Ad</td>
+        <td>Soyad</td>
+        <td>Adres</td>
+        <td>Mail</td>
+        <td>Phone</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ID</td>
+            <td>@item.Name</td>
+            <td>@item.Surname</td>
+            <td>@item.Adres</td>
+            <td>@item.Mail</td>
+            <td>@item.Phone</td>
+            <td>
+                <a href="@Url.Action("SiparisSil","Web", new {id = item.ID })" class="btn btn-danger"><i class="fa fa-trash-o"></i></a>
+            </td>
+            <td>
+                <a href="@Url.Action("SatilanListesi", "Web", new {id = item.ID})" class="btn btn-warning">Sipariş Detayını Görüntüle</a>
+            </td>
+        </tr>
+    }
+</table>
+<br />
+@Html.PagedListPager((IPagedList)Model, page => Url.Action("SiparisListesi", new {page}))
